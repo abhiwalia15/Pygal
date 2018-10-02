@@ -1,0 +1,15 @@
+import numpy as np
+
+#generating a random data plot
+x_values = np.arange(101) 
+y_values = np.random.randn(101)
+x_values
+'''
+chart = pygal.Line()#(fill=True, zero=1)
+chart.force_uri_protocol = 'http'
+chart.x_title = '1-100 values'
+chart.y_title = 'Random nos.'
+chart.title = 'RANDOM VALUES'
+chart.x_labels = x_values
+chart.add('Random', y_values)
+chart.render_to_file('Random.svg')'''
